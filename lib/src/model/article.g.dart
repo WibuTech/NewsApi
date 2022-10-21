@@ -15,7 +15,7 @@ Article _$ArticleFromJson(Map<String, dynamic> json) {
     publishedAt: DateTime.parse(json['publishedAt'] as String),
     title: json['title'] as String,
     url: json['url'] as String,
-    urlToImage: json['urlToImage'] as String,
+    urlToImage: json['urlToImage'] as String?,
   );
 }
 
